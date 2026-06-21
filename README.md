@@ -1,9 +1,3 @@
-Thought process
-Thought process
-Same problem here — the table is broken, and the bullet lists and bold text in "AWS Services Used" and "Tech Stack" are also running together. The content is all there, it's just the formatting that didn't survive the paste.
-
-Replace the entire application README with this:
-
 markdown
 # HumanGov Application
 
