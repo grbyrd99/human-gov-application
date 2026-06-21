@@ -1,4 +1,3 @@
-markdown
 # HumanGov Application
 
 A simulated U.S. Department of Education web application used as the foundation for a hands-on cloud infrastructure and DevOps migration project. This repository contains the application code; infrastructure code lives in [human-gov-infrastructure](https://github.com/grbyrd99/human-gov-infrastructure).
@@ -11,48 +10,12 @@ This project demonstrates real-world infrastructure decision-making — each mig
 
 ## Architecture Evolution
 
-|
- Phase 
-|
- Infrastructure 
-|
- Status 
-|
-|
----
-|
----
-|
----
-|
-|
- 1 
-|
- EC2 — single instance deployment 
-|
- Complete 
-|
-|
- 2 
-|
- Dockerized application 
-|
- Complete 
-|
-|
- 3 
-|
- AWS ECS + ECR + ALB — multi-tenant, siloed by state 
-|
- Complete 
-|
-|
- 4 
-|
- AWS EKS — Kubernetes orchestration 
-|
- In Progress 
-|
+| Phase | Infrastructure | Status |
+| --- | --- | --- |
+| 1 | EC2 — single instance deployment | Complete |
+| 2 | Dockerized application | Complete |
+| 3 | AWS ECS + ECR + ALB — multi-tenant, siloed by state | Complete |
+| 4 | AWS EKS — Kubernetes orchestration | In Progress |
 
 ## Current Architecture (Phase 3)
 
@@ -84,4 +47,4 @@ Infrastructure provisioning for this application is managed separately using Ter
 
 This project is part of a hands-on DevOps and cloud engineering bootcamp. It is designed to simulate the kind of incremental infrastructure evolution a cloud engineer encounters in enterprise environments — receiving requirements, evaluating options, and implementing changes without disrupting existing tenants.
 
-> **Note:** The Flask application code was provided as part of the bootcamp curriculum. Infrastructure 
+> **Note:** The Flask application code was provided as part of the bootcamp curriculum. Infrastructure design, provisioning, containerization, and all AWS deployment work was performed by Gary Byrd.
